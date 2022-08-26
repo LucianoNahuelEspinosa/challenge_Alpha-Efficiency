@@ -1,0 +1,314 @@
+.banner4Container {
+    width: 100%;
+    height: 796px;
+    background-color: #F9F9F9;
+    text-align: center;
+    align-items: center;
+    display: flex;
+}
+
+.midCircleBanner4 {
+    width: 279px;
+    height: 279px;
+    position: absolute;
+    border: 28px solid #FFFFFF;
+    background-color: transparent;
+    border-radius: 50%;
+    right: 3%;
+    margin-top: -390px;
+}
+
+.bigCircleBanner4 {
+    width: 386px;
+    height: 386px;
+    position: absolute;
+    border: 28px solid #FFFFFF;
+    background-color: transparent;
+    border-radius: 50%;
+    left: -165px;
+}
+
+.smallCircleBanner4 {
+    width: 158px;
+    height: 158px;
+    position: absolute;
+    border: 28px solid #FFFFFF;
+    background-color: transparent;
+    border-radius: 50%;
+    right: 10%;
+    margin-top: 265px;
+}
+
+.titleBanner4 {
+    font-size: 32px;
+    font-weight: normal;
+    font-family: 'Libre Baskerville', serif;
+    color: #333333;
+    margin-bottom: 64px;
+}
+
+.titleBanner4 > span {
+    color: #DD71C6;
+}
+
+.cardBanner4 {
+    width: 447px;
+    height: 391px;
+    padding: 28px 31.5px;
+    background: #FFFFFF;
+    border-radius: 20px;
+}
+
+.cardTitleBanner4 {
+    font-size: 24px;
+    font-weight: normal;
+    font-family: 'Libre Baskerville', serif;
+    color: #0083D3;
+}
+
+.cardDividerBanner4 {
+    width: 100%;
+    display: block;
+    margin: 39px 0px;
+    border: 1px solid #B1E2FF;
+}
+
+.cardBanner4 > ul > li {
+    margin-bottom: 20px;
+    color: #333333;
+    text-align: start;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.btnBanner4 {
+    margin-top: 88px;
+}
+
+/* ======================================== RESPONSIVE ========================================== */
+
+/* ========== Laptop 1440px ========= */
+@media (max-width: 1440px) {
+    .midCircleBanner4 {
+        width: 239px;
+        height: 239px;
+        right: -9%;
+        margin-top: -410px;
+    }
+    
+    .bigCircleBanner4 {
+        width: 346px;
+        height: 346px;
+        left: -220px;
+    }
+    
+    .smallCircleBanner4 {
+        width: 138px;
+        height: 138px;
+        right: 1%;
+    }
+}
+/* ================================== */
+
+/* ========== PC 1024px ========= */
+@media (max-width: 1024px) {
+    .midCircleBanner4 {
+        right: -15%;
+    }
+    
+    .bigCircleBanner4 {
+        left: -270px;
+    }
+    
+    .smallCircleBanner4 {
+        right: -5%;
+    }
+
+    .cardBanner4 {
+        width: 340px;
+    }
+}
+/* ============================== */
+
+/* ========== Tablet 820px ========= */
+@media (max-width: 820px) {
+    .banner4Container {
+        height: 1156px;
+    }
+
+    .midCircleBanner4 {
+        width: 238px;
+        height: 238px;
+        border-width: 21px;
+        left: -10%;
+        margin-top: -82%;
+    }
+    
+    .bigCircleBanner4 {
+        width: 392px;
+        height: 392px;
+        left: -29%;
+        margin-top: 70%;
+        border-width: 21px;
+    }
+    
+    .smallCircleBanner4 {
+        width: 238px;
+        height: 238px;
+        border-width: 21px;
+        right: -12%;
+        margin-top: -7%;
+    }
+
+    .titleBanner4 {
+        width: 60%;
+        text-align: initial;
+        margin-left: 18%;
+    }
+
+    .cardBanner4 {
+        width: 440px;
+        height: 363px;
+        margin-bottom: 44px;
+        padding: 35px 82.5px;
+    }
+
+    .btnBanner4 {
+        margin-top: 0px;
+    }
+}
+/* ============================== */
+
+/* ========== Tablet 540px ========= */
+@media (max-width: 540px) {
+    .midCircleBanner4 {
+        width: 238px;
+        height: 238px;
+        border-width: 21px;
+        left: -35%;
+        margin-top: -82%;
+    }
+    
+    .bigCircleBanner4 {
+        width: 392px;
+        height: 392px;
+        left: -64%;
+        margin-top: 70%;
+        border-width: 21px;
+    }
+    
+    .smallCircleBanner4 {
+        width: 238px;
+        height: 238px;
+        border-width: 21px;
+        right: -37%;
+        margin-top: -7%;
+    }
+}
+/* ============================== */
+
+/* ========== Phone 428px ========= */
+@media (max-width: 428px) {
+    .banner4Container {
+        height: 997px;
+    }
+
+    .midCircleBanner4 {
+        width: 164px;
+        height: 164px;
+        border-width: 17px;
+        left: -4%;
+        margin-top: -178%;
+    }
+    
+    .bigCircleBanner4 {
+        display: none;
+    }
+    
+    .smallCircleBanner4 {
+        width: 129px;
+        height: 129px;
+        border-width: 17px;
+        right: -21%;
+        margin-top: -146%;
+    }
+
+    .titleBanner4 {
+        width: 78%;
+        margin-left: 10%;
+        position: relative;
+    }
+
+    .cardBanner4 {
+        width: 281px;
+        height: 295px;
+        margin-bottom: 39px;
+        padding: 24px;
+    }
+
+    .cardTitleBanner4 {
+        font-size: 18px;
+    }
+
+    .cardDividerBanner4 {
+        margin: 17px 0px;
+    }
+    
+    .cardBanner4 > ul > li {
+        font-size: 14px;
+    }
+}
+/* ============================== */
+
+/* ========== Phone 375px ========= */
+@media (max-width: 375px) {
+    .banner4Container {
+        height: 997px;
+    }
+
+    .midCircleBanner4 {
+        width: 164px;
+        height: 164px;
+        border-width: 17px;
+        left: -4%;
+        margin-top: -205%;
+    }
+    
+    .bigCircleBanner4 {
+        display: none;
+    }
+    
+    .smallCircleBanner4 {
+        width: 129px;
+        height: 129px;
+        border-width: 17px;
+        right: -24%;
+        margin-top: -157%;
+    }
+
+    .titleBanner4 {
+        width: 78%;
+        margin-left: 10%;
+        position: relative;
+    }
+
+    .cardBanner4 {
+        width: 281px;
+        height: 295px;
+        margin-bottom: 39px;
+        padding: 24px;
+    }
+
+    .cardTitleBanner4 {
+        font-size: 18px;
+    }
+
+    .cardDividerBanner4 {
+        margin: 17px 0px;
+    }
+    
+    .cardBanner4 > ul > li {
+        font-size: 14px;
+    }
+}
+/* ============================== */

@@ -1,0 +1,260 @@
+.banner5Container {
+    width: 100%;
+    height: auto;
+    background-color: #FFFFFF;
+    align-items: center;
+    display: flex;
+    padding: 100px 0px;
+}
+
+.midCircleBanner5 {
+    width: 269px;
+    height: 269px;
+    position: absolute;
+    border: 28px solid #F9F9F9;
+    background-color: transparent;
+    border-radius: 50%;
+    right: 0.5%;
+    margin-top: -900px;
+}
+
+.bigCircleBanner5 {
+    width: 410px;
+    height: 410px;
+    position: absolute;
+    border: 28px solid #F9F9F9;
+    background-color: transparent;
+    border-radius: 50%;
+    left: -195px;
+    margin-top: 400px;
+}
+
+.smallCircleBanner5 {
+    width: 124px;
+    height: 124px;
+    position: absolute;
+    border: 28px solid #F9F9F9;
+    background-color: transparent;
+    border-radius: 50%;
+    right: 8%;
+    margin-top: 800px;
+}
+
+.titleBanner5 {
+    font-size: 32px;
+    font-weight: normal;
+    font-family: 'Libre Baskerville', serif;
+    color: #333333;
+    margin-bottom: 64px;
+}
+
+.collapsesContainer {
+    margin-bottom: 53px;
+}
+
+.collapseBanner5 {
+    width: 100%;
+    height: 64px;
+    background-color: #F9F9F9;
+    border-radius: 20px;
+    padding: 18px 20px;
+}
+
+.collapsesContainer > .collapseBanner5 {
+    margin-bottom: 30px;
+}
+
+.collapseBanner5 > p {
+    color: #333333;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    display: inline-block;
+}
+
+.chevronBanner5 {
+    float: right;
+    margin-right: 42px;
+    transform: rotate(0deg);
+}
+
+.chevronBanner5Active {
+    animation-name: rotateUpChevron;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+.chevronBanner5NoActive {
+    animation-name: rotateDownChevron;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes rotateUpChevron {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(180deg); }
+}
+
+@keyframes rotateDownChevron {
+    from { transform: rotate(180deg); }
+    to { transform: rotate(0deg); }
+}
+
+.collapse {
+    margin: 10px 0px;
+    padding: 20px;
+}
+
+/* ======================================== RESPONSIVE ========================================== */
+
+/* ========== Laptop 1440px ========= */
+@media (max-width: 1440px) {
+    .midCircleBanner5 {
+        width: 240px;
+        height: 240px;
+        right: -5%;
+    }
+    
+    .bigCircleBanner5 {
+        width: 380px;
+        height: 380px;
+        left: -210px;
+    }
+    
+    .smallCircleBanner5 {
+        width: 124px;
+        height: 124px;
+        right: 4%;
+    }
+
+    .collapsesContainer {
+        text-align: -webkit-center;
+    }
+
+    .collapseBanner5 {
+        width: 80%;
+        text-align: initial;
+    }
+}
+/* ================================== */
+
+/* ========== PC 1024px ========= */
+@media (max-width: 1024px) {
+    .midCircleBanner5 {
+        right: -13%;
+    }
+    
+    .bigCircleBanner5 {
+        left: -272px;
+    }
+    
+    .smallCircleBanner5 {
+        right: 0%;
+    }
+}
+/* ============================== */
+
+/* ========== Tablet 820px ========= */
+@media (max-width: 820px) {
+    .midCircleBanner5 {
+        display: none;
+    }
+    
+    .bigCircleBanner5 {
+        display: none;
+    }
+    
+    .smallCircleBanner5 {
+        display: none;
+    }
+
+    .titleBanner5 {
+        width: 50%;
+        margin-left: 10%;
+    }
+
+    .collapseBanner5 {
+        height: auto;
+        padding-bottom: 0px;
+    }
+
+    .collapseBanner5 > p {
+        width: 90%;
+    }
+
+    .chevronBanner5 {
+        margin-right: 0;
+    }
+}
+/* ============================== */
+
+/* ========== Phone 428px ========= */
+@media (max-width: 428px) {
+    .midCircleBanner5 {
+        display: block;
+        width: 169px;
+        height: 169px;
+        right: -25%;
+        margin-top: -322%;
+        border-width: 20px;
+    }
+    
+    .titleBanner5 {
+        width: 85%;
+        font-size: 24px;
+        margin-left: 10%;
+    }
+
+    .collapseBanner5 {
+        height: auto;
+        padding-bottom: 0px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .collapseBanner5 > p {
+        margin-right: 5px;
+    }
+
+    .chevronBanner5 {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+}
+/* ============================== */
+
+/* ========== Phone 375px ========= */
+@media (max-width: 375px) {
+    .midCircleBanner5 {
+        display: block;
+        width: 169px;
+        height: 169px;
+        right: -25%;
+        margin-top: -350%;
+        border-width: 20px;
+    }
+    
+    .titleBanner5 {
+        width: 85%;
+        font-size: 24px;
+        margin-left: 10%;
+    }
+
+    .collapseBanner5 {
+        height: auto;
+        padding-bottom: 0px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .collapseBanner5 > p {
+        margin-right: 5px;
+    }
+
+    .chevronBanner5 {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+}
+/* ============================== */
